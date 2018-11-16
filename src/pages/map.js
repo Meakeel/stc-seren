@@ -6,6 +6,7 @@ export class Map {
   constructor(dataaccess) {
     this.dataaccess = dataaccess;
     this.map = null;
+    this.markers = [];
   }
 
   attached() {
@@ -16,6 +17,17 @@ export class Map {
   initMap() {
     console.log('loading map');
   
+    this.markers.push({
+      "latitude": 52.63023379346856,
+      "longitude": 1.297386894984811,
+      "myLatlng": {"lat": 52.63023379346856, "lng": 1.297386894984811},
+      "title": "Title",
+      "description": "description",
+      "date" : "78234764",
+      "category": "Cafe"
+  });
+  
+    // let url = '/data.json';
     // this.dataaccess.loadMapData(url, this.mapdatacallback);
   }
 
@@ -27,11 +39,13 @@ export class Map {
     console.log('mapdatacallback');
     console.log(data);
     
-    let marker = new google.maps.Marker({
-      position: data.myLatlng,
-      map: map,
-      title: data.title
-    });
+  this.markers.push(data);
+
+    // let marker = new google.maps.Marker({
+    //   position: data.myLatlng,
+    //   map: map,
+    //   title: data.title
+    // });
 
     
     marker.addListener('click', function() {
