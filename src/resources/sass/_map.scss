@@ -1,0 +1,16 @@
+#map {
+    height: 100%;
+}
+
+.map-div {
+    height: 100%;
+
+    .container-fluid, .row, .col-sm {
+        height: 100%;
+    }
+    
+    .container-fluid
+    {
+        padding: 0;
+    }
+}

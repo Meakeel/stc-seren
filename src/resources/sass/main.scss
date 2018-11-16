@@ -1,0 +1,13 @@
+@import "variables";
+
+@import "_donate";
+@import "_home";
+@import "_map";
+@import "_volunteer";
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
