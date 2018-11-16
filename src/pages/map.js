@@ -5,27 +5,38 @@ import {DataAccess} from 'resources/data-access/dataaccess'
 export class Map {
   constructor(dataaccess) {
     this.dataaccess = dataaccess;
+    this.map = null;
   }
 
   attached() {
     console.log('init maps');
-    this.initMap();  
+    this.initMap();
   }
 
   initMap() {
     console.log('loading map');
-    
-    let map = new google.maps.Map(document.getElementById('map'), {
-      center: {lat: 52.63023379346856, lng: 1.297386894984811},
-      zoom: 8
-    });
+  
+    // this.dataaccess.loadMapData(url, this.mapdatacallback);
+  }
 
-    let url = '/data.json';
-    var cleanData = this.dataaccess.loadMapData(url, this.mapdatacallback);
+  showPopup() {
+    console.log('popupclicked');
   }
 
   mapdatacallback(data) {
     console.log('mapdatacallback');
     console.log(data);
+    
+    let marker = new google.maps.Marker({
+      position: data.myLatlng,
+      map: map,
+      title: data.title
+    });
+
+    
+    marker.addListener('click', function() {
+      // see what we have to get the right marker.
+      this.showPopup();
+    });
   }
 }
