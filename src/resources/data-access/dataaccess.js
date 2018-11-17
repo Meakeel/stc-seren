@@ -9,15 +9,16 @@ export class DataAccess {
         this.http = new HttpClient();
     }
 
-    loadMapData(url, cb) {
+    loadMapData(url, cb, markers) {
         this.cb = cb;
+        this.markers = markers;
         var _this = this;
         fetch(url)
             .then(function(response) {
                 return response.json();
             })
             .then(function(json) { 
-                _this.cb(json);
+                _this.cb(json, _this.markers);
             });
 
     }
