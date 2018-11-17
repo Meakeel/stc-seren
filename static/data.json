@@ -5,7 +5,9 @@
     "custom": {"lat": 52.630233, "lng": 1.297386,
     "description": "Social Drop-In",
     "date": "02/12/18",
-    "category": "Non-focused Event"
+    "time": "12:00",
+    "category": "Non-focused Event",
+    "name": "Manon Gascard"
     }
 }
 ,
@@ -16,7 +18,9 @@
     "custom": {"lat": 52.630233, "lng": 1.297386,
     "description": "Gym and Yoga Drop-In",
     "date": "02/12/18",
-    "category": "Sport"
+    "time": "15:00",
+    "category": "Sport",
+    "name": "Astra Roantree"
     }
 }
 ,
@@ -27,7 +31,9 @@
     "custom": {"lat": 52.630233, "lng": 1.297386,
     "description": "Gym and Yoga Drop-In",
     "date": "03/12/18",
-    "category": "Sport"
+    "time": "13:30",
+    "category": "Sport",
+    "name": "Giovanni Gitting"
     }
 }
 ,
@@ -38,7 +44,9 @@
     "custom": {"lat": 52.630233, "lng": 1.297386,
     "description": "Social Drop-In",
     "date": "03/12/18",
-    "category": "Non-focused Event"
+    "time": "17:00",
+    "category": "Non-focused Event",
+    "name": "Diann Brotherhood"
     }
 }
 ,
@@ -49,7 +57,9 @@
     "custom": {"lat": 52.630233, "lng": 1.297386,
     "description": "Social Drop-In",
     "date": "02/12/18",
-    "category": "Non-focused Event"
+    "time": "10:00",
+    "category": "Non-focused Event",
+    "name": "Matthiew Chattey"
     }
 }
 ,
@@ -60,7 +70,9 @@
     "custom": {"lat": 52.630233, "lng": 1.297386,
     "description": "Social Drop-In",
     "date": "04/12/18",
-    "category": "Café/Bar"
+    "time": "16:30",
+    "category": "Café/Bar",
+    "name": "Ty Forshaw"
     }
 }
 ,
@@ -71,7 +83,9 @@
     "custom": {"lat": 52.630233, "lng": 1.297386,
     "description": "Social Drop-In",
     "date": "03/12/18",
-    "category": "Bar"
+    "time": "19:00",
+    "category": "Bar",
+    "name": "Ronni Cawt"
     }
 }
 ,
@@ -81,8 +95,10 @@
     "title": "eposnow",
     "custom": {"lat": 52.630233, "lng": 1.297386,
     "description": "Social Drop-In",
-    "date": "",
-    "category": "Non-focused Event"
+    "date": "02/12/18",
+    "time": "09:00",
+    "category": "Non-focused Event",
+    "name": "Karia Kimber"
     }
 }
 ,
@@ -92,7 +108,9 @@
     "title": "Phoenix Gym",
     "custom": {"lat": 52.630233, "lng": 1.297386,
     "description": "Gym and Yoga Drop-In",
-    "date": "",
-    "category": "Sport"
+    "date": "03/12/18",
+    "time": "11:00",
+    "category": "Sport",
+    "name": "Reggy Pryn"
     }
 }]
