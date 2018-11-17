@@ -1,0 +1,12 @@
+$nav-background: #414141;
+$button-background: #89C4F4;
+
+
+.bg-primary {
+    background-color: $nav-background !important;
+}
+
+.btn-primary {
+    background-color: $button-background !important;
+    border-color: $button-background !important;
+}

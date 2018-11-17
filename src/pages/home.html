@@ -1,19 +1,18 @@
 <template>
-  <div class='home'>
+  <div class="page home">
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm">
-          <h1>Some Text Here</h1>
-          <p>Some other random text here</p>
+      <div class="row header">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <h1>Connecting sufferers with survivors</h1>
+          <p>Seren brings people together to talk about their mental health problems discretely and safely alongside volunteer listeners that have recovered from similar situations themselves.</p>
         </div>
       </div>
-      <div class="banner-button d-flex align-items-center justify-content-left">
-          <div class="p-2 bd-highlight">
-              <button class='btn btn-primary btn-lg' text='Speak to Someone' click.trigger='goToMap()'><span class='text-center'>I need someone<br />to listen to me</span></button>
-            </div>
-            <div class="p-2 bd-highlight">
-              <button class='btn btn-primary btn-lg' text='Volunteer Your Help' click.trigger='gotoVolunteer()'><span class='text-center'>I want to help<br />&nbsp;</span></button>
-            </div>
+
+      <div class="row home-buttons">
+        <div class="col-sm-12">
+          <button class='btn btn-primary' text='Speak to Someone' click.trigger='goToMap()'><span class='text-center'>I need someone<br />to listen to me</span></button>
+          <button class='btn btn-primary' text='Volunteer Your Help' click.trigger='gotoVolunteer()'><span class='text-center'>I want to help</span></button>
+        </div>
       </div>
     </div>
   </div>
