@@ -15,7 +15,7 @@
     "title": "Dynamic Fitness",
     "custom": {"lat": 52.630233, "lng": 1.297386,
     "description": "Gym and Yoga Drop-In",
-    "date": "",
+    "date": "02/12/18",
     "category": "Sport"
     }
 }
@@ -26,7 +26,7 @@
     "title": "Complete Fitness",
     "custom": {"lat": 52.630233, "lng": 1.297386,
     "description": "Gym and Yoga Drop-In",
-    "date": "",
+    "date": "03/12/18",
     "category": "Sport"
     }
 }
@@ -37,7 +37,7 @@
     "title": "North",
     "custom": {"lat": 52.630233, "lng": 1.297386,
     "description": "Social Drop-In",
-    "date": "",
+    "date": "03/12/18",
     "category": "Non-focused Event"
     }
 }
@@ -48,7 +48,7 @@
     "title": "MIND",
     "custom": {"lat": 52.630233, "lng": 1.297386,
     "description": "Social Drop-In",
-    "date": "",
+    "date": "02/12/18",
     "category": "Non-focused Event"
     }
 }
@@ -59,7 +59,7 @@
     "title": "Aroma",
     "custom": {"lat": 52.630233, "lng": 1.297386,
     "description": "Social Drop-In",
-    "date": "",
+    "date": "04/12/18",
     "category": "Café/Bar"
     }
 }
@@ -70,7 +70,7 @@
     "title": "Franks Bar",
     "custom": {"lat": 52.630233, "lng": 1.297386,
     "description": "Social Drop-In",
-    "date": "",
+    "date": "03/12/18",
     "category": "Bar"
     }
 }
