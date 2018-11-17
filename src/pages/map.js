@@ -49,7 +49,6 @@ export class Map {
               <h1 id="firstHeading" class="firstHeading">${data[i].custom.name}</h1>
               <div id="bodyContent">
                 <p>${data[i].custom.date}, ${data[i].custom.time} @ ${data[i].title}</p>
-                <p>${data[i].custom.category}</p>
                 <p>${data[i].custom.description}</p>
                 <button class='btn btn-primary' onclick="register()">Join Event</button>
               </div>
