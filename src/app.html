@@ -1,6 +1,15 @@
 <template>
-    <require from='./resources/sass/main.scss' ></require>
-    <compose view-model="./navbar" ></compose>
-    
+    <require from='./resources/sass/main.scss'></require>
+    <compose view-model="./navbar"></compose>
+
     <router-view></router-view>
+
+    <footer class="page-footer font-small bg-primary">
+
+        <div class="footer-copyright text-center py-3">
+             <img src="/greater-anglia.png" alt="greater anglia funded" />
+             <img src="/national-lottery.jpg" alt="national lottery applied" />
+        </div>
+
+    </footer>
 </template>

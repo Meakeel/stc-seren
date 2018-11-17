@@ -16,4 +16,14 @@ html {
 
 .page {
     height: calc(100% - 70px) !important;
-}   
+}
+
+.page-footer {
+    img {
+        max-height: 100px;
+
+    + img {
+        margin-left: 50px;
+    }
+    }
+}
