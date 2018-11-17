@@ -1,9 +1,111 @@
-{
-    "latitude": 52.63023379346856,
-    "longitude": 1.297386894984811,
-    "myLatlng": {"lat": 52.63023379346856, "lng": 1.297386894984811},
-    "title": "Title",
-    "description": "description",
-    "date" : "78234764",
-    "category": "Cafe"
+// {
+//     "latitude": 52.931155,
+//     "longitude": 1.302305,
+//     "title": "Random Location",
+//     "custom": {"lat": 52.630233, "lng": 1.297386,
+//     "description": "description",
+//     "date" : "78234764",
+//     "category": "Cafe"}
+// }
+
+
+
+
+[{
+    "latitude": 52.629276,
+    "longitude": 1.297253,
+    "title": "Open",
+    "custom": {"lat": 52.630233, "lng": 1.297386,
+    "description": "Social Drop-In",
+    "date": "02/12/18",
+    "category": "Non-focused Event"
+    }
 }
+,
+{
+    "latitude": 52.623774,
+    "longitude": 1.298050,
+    "title": "Dynamic Fitness",
+    "custom": {"lat": 52.630233, "lng": 1.297386,
+    "description": "Gym and Yoga Drop-In",
+    "date": "",
+    "category": "Sport"
+    }
+}
+,
+{
+    "latitude": 52.636771,
+    "longitude": 1.284005,
+    "title": "Complete Fitness",
+    "custom": {"lat": 52.630233, "lng": 1.297386,
+    "description": "Gym and Yoga Drop-In",
+    "date": "",
+    "category": "Sport"
+    }
+}
+,
+{
+    "latitude": 52.633187,
+    "longitude": 1.296928,
+    "title": "North",
+    "custom": {"lat": 52.630233, "lng": 1.297386,
+    "description": "Social Drop-In",
+    "date": "",
+    "category": "Non-focused Event"
+    }
+}
+,
+{
+    "latitude": 52.648099,
+    "longitude": 1.340945,
+    "title": "MIND",
+    "custom": {"lat": 52.630233, "lng": 1.297386,
+    "description": "Social Drop-In",
+    "date": "",
+    "category": "Non-focused Event"
+    }
+}
+,
+{
+    "latitude": 52.630176,
+    "longitude": 1.298785,
+    "title": "Aroma",
+    "custom": {"lat": 52.630233, "lng": 1.297386,
+    "description": "Social Drop-In",
+    "date": "",
+    "category": "Café/Bar"
+    }
+}
+,
+{
+    "latitude": 52.629751,
+    "longitude": 1.294698,
+    "title": "Franks Bar",
+    "custom": {"lat": 52.630233, "lng": 1.297386,
+    "description": "Social Drop-In",
+    "date": "",
+    "category": "Bar"
+    }
+}
+,
+{
+    "latitude": 52.608682,
+    "longitude": 1.291910,
+    "title": "eposnow",
+    "custom": {"lat": 52.630233, "lng": 1.297386,
+    "description": "Social Drop-In",
+    "date": "",
+    "category": "Non-focused Event"
+    }
+}
+,
+{
+    "latitude": 52.634013,
+    "longitude": 1.290216,
+    "title": "Phoenix Gym",
+    "custom": {"lat": 52.630233, "lng": 1.297386,
+    "description": "Gym and Yoga Drop-In",
+    "date": "",
+    "category": "Sport"
+    }
+}]
